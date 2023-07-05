@@ -21,6 +21,10 @@ exports.config = {
     I: "./steps_file.js",
 
     loginPage: "./pages/login.js",
+    additemtocartPage:"./pages/additemtocart.js",
+    cartitemcheckoutPage:"./pages/cartitemcheckout.js",
+    requestdemoPage:"./pages/requestdemo.js",
+    logoutPage:"./pages/logout.js",
   },
   bootstrap: null,
   mocha: {
