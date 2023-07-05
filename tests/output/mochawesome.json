@@ -1,0 +1,516 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-07-05T04:58:36.536Z",
+    "end": "2023-07-05T04:59:36.731Z",
+    "duration": 60195,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "87de3dc0-dbf1-4688-8019-251f35cd56b3",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9589cb48-96c2-41da-beb2-0050d610705b",
+          "title": "ADD Item To Cart",
+          "fullFile": "C:\\POC\\tests\\addtocart_test.js",
+          "file": "\\addtocart_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"ADD Item To Cart\"",
+              "fullTitle": "ADD Item To Cart \"before all\" hook: codeceptjs.beforeSuite in \"ADD Item To Cart\"",
+              "timedOut": false,
+              "duration": 1133,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "0036d90d-0702-49ed-b6fd-aac8d7ac3eb9",
+              "parentUUID": "9589cb48-96c2-41da-beb2-0050d610705b",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"ADD Item To Cart\"",
+              "fullTitle": "ADD Item To Cart \"before each\" hook: codeceptjs.before in \"ADD Item To Cart\"",
+              "timedOut": false,
+              "duration": 573,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "1634b522-e0f2-46e1-9eb2-c81b96e7c5ce",
+              "parentUUID": "9589cb48-96c2-41da-beb2-0050d610705b",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"ADD Item To Cart\"",
+              "fullTitle": "ADD Item To Cart \"after all\" hook: codeceptjs.afterSuite in \"ADD Item To Cart\"",
+              "timedOut": false,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "26570bb1-327a-4b4d-a4d2-434a0827424e",
+              "parentUUID": "9589cb48-96c2-41da-beb2-0050d610705b",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"ADD Item To Cart\"",
+              "fullTitle": "ADD Item To Cart \"after each\" hook: finalize codeceptjs in \"ADD Item To Cart\"",
+              "timedOut": false,
+              "duration": 81,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "29224a9b-1a12-4ad9-b141-8923332ee472",
+              "parentUUID": "9589cb48-96c2-41da-beb2-0050d610705b",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "ADD Item To Cart @smoke2",
+              "fullTitle": "ADD Item To Cart: ADD Item To Cart @smoke2",
+              "timedOut": false,
+              "duration": 6658,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n  I.amOnPage(\"/\");\n  addcart.fillLoginFields(correctLoginUser);\n  I.wait(2);\n  addcart.cartName();\n  I.see('$29.99');",
+              "err": {},
+              "uuid": "ba8a8195-98fc-404a-9e2b-aa97d1abdba4",
+              "parentUUID": "9589cb48-96c2-41da-beb2-0050d610705b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ba8a8195-98fc-404a-9e2b-aa97d1abdba4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6658,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "0446b105-84c1-40a7-a2e8-a1aa5b3487f4",
+          "title": "login",
+          "fullFile": "C:\\POC\\tests\\login_test.js",
+          "file": "\\login_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"login\"",
+              "fullTitle": "login \"before all\" hook: codeceptjs.beforeSuite in \"login\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "5f22cec5-8002-4ca7-821d-4a1906694e2a",
+              "parentUUID": "0446b105-84c1-40a7-a2e8-a1aa5b3487f4",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"login\"",
+              "fullTitle": "login \"before each\" hook: codeceptjs.before in \"login\"",
+              "timedOut": false,
+              "duration": 613,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "83789d6e-c697-41a4-8161-c23b1ed5b7dd",
+              "parentUUID": "0446b105-84c1-40a7-a2e8-a1aa5b3487f4",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"login\"",
+              "fullTitle": "login \"after all\" hook: codeceptjs.afterSuite in \"login\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "8b5d0ee6-0d91-48c1-8a3e-dcc985268027",
+              "parentUUID": "0446b105-84c1-40a7-a2e8-a1aa5b3487f4",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"login\"",
+              "fullTitle": "login \"after each\" hook: finalize codeceptjs in \"login\"",
+              "timedOut": false,
+              "duration": 88,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "e96c5869-7c08-4acb-aabd-588d7d79bf99",
+              "parentUUID": "0446b105-84c1-40a7-a2e8-a1aa5b3487f4",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "user login @smoke1",
+              "fullTitle": "login: user login @smoke1",
+              "timedOut": false,
+              "duration": 2012,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n  I.amOnPage('/');\n  login1.fillLoginFields(correctLoginUser);\n  I.see('Swag Labs');",
+              "err": {},
+              "uuid": "5b86517f-526f-42b4-925d-2201ab99f639",
+              "parentUUID": "0446b105-84c1-40a7-a2e8-a1aa5b3487f4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5b86517f-526f-42b4-925d-2201ab99f639"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2012,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "f0534c47-55f6-4e4f-ad28-d488807fe25b",
+          "title": "logout",
+          "fullFile": "C:\\POC\\tests\\logout_test.js",
+          "file": "\\logout_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"logout\"",
+              "fullTitle": "logout \"before all\" hook: codeceptjs.beforeSuite in \"logout\"",
+              "timedOut": false,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "9219864c-4251-4188-a4e9-0feb17db9300",
+              "parentUUID": "f0534c47-55f6-4e4f-ad28-d488807fe25b",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"logout\"",
+              "fullTitle": "logout \"before each\" hook: codeceptjs.before in \"logout\"",
+              "timedOut": false,
+              "duration": 674,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "764c643e-762e-4379-a5b9-22c8782d4050",
+              "parentUUID": "f0534c47-55f6-4e4f-ad28-d488807fe25b",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"logout\"",
+              "fullTitle": "logout \"after all\" hook: codeceptjs.afterSuite in \"logout\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "ce5522f3-1552-4f35-ac68-5a2512201eab",
+              "parentUUID": "f0534c47-55f6-4e4f-ad28-d488807fe25b",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"logout\"",
+              "fullTitle": "logout \"after each\" hook: finalize codeceptjs in \"logout\"",
+              "timedOut": false,
+              "duration": 73,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "c047374d-97b3-4445-901c-bb71585f4ee6",
+              "parentUUID": "f0534c47-55f6-4e4f-ad28-d488807fe25b",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Logout User",
+              "fullTitle": "logout: Logout User",
+              "timedOut": false,
+              "duration": 8923,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n  I.amOnPage(\"/\");\n  logot.fillLoginFields(correctLoginUser);\n  I.wait(2);\n  logot.logoutuser();\n  I.wait(2);",
+              "err": {},
+              "uuid": "0f87b721-a511-4282-b982-46be10bbcd44",
+              "parentUUID": "f0534c47-55f6-4e4f-ad28-d488807fe25b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0f87b721-a511-4282-b982-46be10bbcd44"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8923,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "ababcfc9-db8d-4494-aa6f-66f5f0ac96f2",
+          "title": "requestdemo",
+          "fullFile": "C:\\POC\\tests\\requestdemo_test.js",
+          "file": "\\requestdemo_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"requestdemo\"",
+              "fullTitle": "requestdemo \"before all\" hook: codeceptjs.beforeSuite in \"requestdemo\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "25d1ae2a-d44d-4d74-adfb-57cd7a789e21",
+              "parentUUID": "ababcfc9-db8d-4494-aa6f-66f5f0ac96f2",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"requestdemo\"",
+              "fullTitle": "requestdemo \"before each\" hook: codeceptjs.before in \"requestdemo\"",
+              "timedOut": false,
+              "duration": 685,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "aa698562-cd24-4824-a801-248d35cefd70",
+              "parentUUID": "ababcfc9-db8d-4494-aa6f-66f5f0ac96f2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"requestdemo\"",
+              "fullTitle": "requestdemo \"after all\" hook: codeceptjs.afterSuite in \"requestdemo\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "ff52a7e3-4a37-42f3-bdf8-e36527ab5f3f",
+              "parentUUID": "ababcfc9-db8d-4494-aa6f-66f5f0ac96f2",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"requestdemo\"",
+              "fullTitle": "requestdemo \"after each\" hook: finalize codeceptjs in \"requestdemo\"",
+              "timedOut": false,
+              "duration": 154,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "d7201334-3da2-4f92-a1ff-0cdf70c3eb64",
+              "parentUUID": "ababcfc9-db8d-4494-aa6f-66f5f0ac96f2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "user login",
+              "fullTitle": "requestdemo: user login",
+              "timedOut": false,
+              "duration": 38478,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n  I.amOnPage('/');\n  request.fillLoginFields(correctLoginUser);\n  I.wait(2);\n  request.requestDemoSignup(contactdetails);\n  //I.seeCheckboxIsChecked(\"#LblmktoCheckbox_37543_0\");\n  //I.see('Thank you for your request.');\n \n  I.wait(2);",
+              "err": {},
+              "uuid": "08cf5129-c41c-4e77-97cd-dfdffa1c6627",
+              "parentUUID": "ababcfc9-db8d-4494-aa6f-66f5f0ac96f2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "08cf5129-c41c-4e77-97cd-dfdffa1c6627"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 38478,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "mochaFile": "output/result.xml",
+        "reportDir": "output"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
