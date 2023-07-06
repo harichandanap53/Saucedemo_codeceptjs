@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1688630305568' stop='1688630323706'>
+    <name>requestdemo:</name>
+    <title>requestdemo:</title>
+    <test-cases>
+        <test-case start='1688630306556' status='passed' stop='1688630323489'>
+            <name>user login</name>
+            <title>user login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1688630307219' status='passed' stop='1688630307964'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630307965' status='passed' stop='1688630308341'>
+                    <name>I fill field "#user-name", "standard_user"</name>
+                    <title>I fill field "#user-name", "standard_user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630308342' status='passed' stop='1688630308696'>
+                    <name>I fill field "#password", "secret_sauce"</name>
+                    <title>I fill field "#password", "secret_sauce"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630308696' status='passed' stop='1688630308926'>
+                    <name>I click "#login-button"</name>
+                    <title>I click "#login-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630308926' status='passed' stop='1688630309099'>
+                    <name>I click "#react-burger-menu-btn"</name>
+                    <title>I click "#react-burger-menu-btn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630309099' status='passed' stop='1688630309794'>
+                    <name>I click "#about_sidebar_link"</name>
+                    <title>I click "#about_sidebar_link"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630309795' status='passed' stop='1688630312408'>
+                    <name>I click "//a[@href='/request-demo']//button[@type='button']"</name>
+                    <title>I click "//a[@href='/request-demo']//button[@type='button']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630312409' status='passed' stop='1688630314417'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630314418' status='passed' stop='1688630316936'>
+                    <name>I fill field "#FirstName", "Abc"</name>
+                    <title>I fill field "#FirstName", "Abc"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630316937' status='passed' stop='1688630317154'>
+                    <name>I fill field "#LastName", "b"</name>
+                    <title>I fill field "#LastName", "b"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630317154' status='passed' stop='1688630317573'>
+                    <name>I fill field "#Email", "hello@xyz.com"</name>
+                    <title>I fill field "#Email", "hello@xyz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630317573' status='passed' stop='1688630317745'>
+                    <name>I fill field "#Company", "QA"</name>
+                    <title>I fill field "#Company", "QA"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630317745' status='passed' stop='1688630318087'>
+                    <name>I fill field "#Phone", 3241354554</name>
+                    <title>I fill field "#Phone", 3241354554</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630318087' status='passed' stop='1688630318213'>
+                    <name>I select option "#Country", "India"</name>
+                    <title>I select option "#Country", "India"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630318213' status='passed' stop='1688630318338'>
+                    <name>I select option "#Solution_Interest__c", "Sauce Mobile"</name>
+                    <title>I select option "#Solution_Interest__c", "Sauce Mobile"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630318338' status='passed' stop='1688630319354'>
+                    <name>I click "#LblmktoCheckbox_37563_0"</name>
+                    <title>I click "#LblmktoCheckbox_37563_0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688630319354' status='passed' stop='1688630323489'>
+                    <name>I click "button[type='submit']"</name>
+                    <title>I click "button[type='submit']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

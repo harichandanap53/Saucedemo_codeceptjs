@@ -14,9 +14,9 @@ class requestdemo extends login {
   country = "#Country";
   selectoption = "#Solution_Interest__c";
   intrest = "#Solution_Interest__c";
-  checkbox1 = "#LblmktoCheckbox_37543_0";
+  checkbox1 = "#LblmktoCheckbox_37563_0";
   submitbutton = "button[type='submit']";
-  closebutton = "#LblmktoCheckbox_37543_0";
+  //closebutton = "#LblmktoCheckbox_37543_0";
 
   requestDemoSignup(contact) {
     I.click(this.menubutton);
@@ -30,15 +30,11 @@ class requestdemo extends login {
     I.fillField(this.phonenumber, contact.phonenumber);
     //I.click(this.country);
     I.selectOption(this.country, "India");
-    I.wait(2);
     I.selectOption(this.selectoption, "Sauce Mobile");
     I.click(this.checkbox1);
     I.click(this.submitbutton);
-    I.click(this.closebutton);
-    I.wait(4);
+    //I.click(this.closebutton);
     console.log("Request demo submitted successfully.");
-
-    I.wait(2);
   }
 }
 module.exports = requestdemo;

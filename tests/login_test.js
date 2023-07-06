@@ -11,8 +11,7 @@ let login1 = new login();
 });*/
 
 Scenario("user login", ({ I }) => {
-  I.amOnPage('/');
+  I.amOnPage("/");
   login1.fillLoginFields(correctLoginUser);
-
-  I.see('Swag Labs');
-}).tag('@smoke1');
+  I.see("Swag Labs");
+}).tag("@smoke1");

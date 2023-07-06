@@ -5,7 +5,6 @@ class login {
   Username = "#user-name";
   Password = "#password";
   loginButton = "#login-button";
- 
 
   //methods
   fillLoginFields(user) {

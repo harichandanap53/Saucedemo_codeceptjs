@@ -13,7 +13,6 @@ class additemtocart extends login {
   cartName() {
     //Items in Cart
     I.click(this.cartname);
-    I.wait(2);
     I.click(this.cartItem);
   }
 }

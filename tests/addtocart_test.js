@@ -9,7 +9,6 @@ let addcart = new additemtocart();
 Scenario("ADD Item To Cart", ({ I }) => {
   I.amOnPage("/");
   addcart.fillLoginFields(correctLoginUser);
-  I.wait(2);
   addcart.cartName();
-  I.see('$29.99');
-}).tag('@smoke2');
+  I.see("$29.99");
+}).tag("@smoke2");

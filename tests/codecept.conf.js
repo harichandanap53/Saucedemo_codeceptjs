@@ -21,10 +21,10 @@ exports.config = {
     I: "./steps_file.js",
 
     loginPage: "./pages/login.js",
-    additemtocartPage:"./pages/additemtocart.js",
-    cartitemcheckoutPage:"./pages/cartitemcheckout.js",
-    requestdemoPage:"./pages/requestdemo.js",
-    logoutPage:"./pages/logout.js",
+    additemtocartPage: "./pages/additemtocart.js",
+    cartitemcheckoutPage: "./pages/cartitemcheckout.js",
+    requestdemoPage: "./pages/requestdemo.js",
+    logoutPage: "./pages/logout.js",
   },
   bootstrap: null,
   mocha: {
@@ -37,7 +37,7 @@ exports.config = {
   plugins: {
     screenshotOnFail: {
       enabled: true,
-      screenshotsForAllureReport: true
+      screenshotsForAllureReport: true,
     },
     retryFailedStep: {
       enabled: true,
@@ -48,8 +48,7 @@ exports.config = {
     },*/
     allure: {
       enabled: true,
-      // require: '@codeceptjs/allure-legacy',
-      
+      require: "@codeceptjs/allure-legacy",
     },
   },
   multiple: {
@@ -59,25 +58,25 @@ exports.config = {
           browser: "firefox",
           desiredCapabilties: {
             // override capabilties related to firefox
-          }
+          },
         },
         {
           browser: "chromium",
           desiredCapabilties: {
             // override capabilties related to chrome
-          }
-        }
-      ]
-    }, 
+          },
+        },
+      ],
+    },
     profile2: {
       browsers: [
         {
           browser: "webkit",
           desiredCapabilties: {
             // override capabilties related to safari
-          }
-        }
-      ]
-    }
-  }
+          },
+        },
+      ],
+    },
+  },
 };
