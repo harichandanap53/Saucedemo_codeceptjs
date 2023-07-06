@@ -13,9 +13,5 @@ Scenario("Logout User", ({ I }) => {
 
   logot.fillLoginFields(correctLoginUser);
 
-  I.wait(2);
-
   logot.logoutuser();
-
-  I.wait(2);
 });
