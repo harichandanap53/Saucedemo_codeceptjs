@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="52.396" tests="4" failures="0">
-  <testsuite name="Root Suite" timestamp="2023-07-05T04:53:46" tests="0" time="0.000" failures="0">
+<testsuites name="Mocha Tests" time="72.865" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-07-05T08:44:49" tests="0" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="ADD Item To Cart" timestamp="2023-07-05T04:53:46" tests="1" file="C:\POC\tests\addtocart_test.js" time="8.438" failures="0">
-    <testcase name="ADD Item To Cart: ADD Item To Cart @smoke2" time="6.777" classname="ADD Item To Cart @smoke2">
+  <testsuite name="ADD Item To Cart" timestamp="2023-07-05T08:44:49" tests="1" file="C:\POC\tests\addtocart_test.js" time="7.772" failures="0">
+    <testcase name="ADD Item To Cart: ADD Item To Cart @smoke2" time="6.326" classname="ADD Item To Cart @smoke2">
     </testcase>
   </testsuite>
-  <testsuite name="login" timestamp="2023-07-05T04:53:55" tests="1" file="C:\POC\tests\login_test.js" time="2.646" failures="0">
-    <testcase name="login: user login @smoke1" time="1.938" classname="user login @smoke1">
+  <testsuite name="CART CHECKOUT" timestamp="2023-07-05T08:44:56" tests="1" file="C:\POC\tests\cartitemcheckout_test.js" time="26.105" failures="0">
+    <testcase name="CART CHECKOUT: checkout item successfull" time="25.443" classname="checkout item successfull">
     </testcase>
   </testsuite>
-  <testsuite name="logout" timestamp="2023-07-05T04:53:58" tests="1" file="C:\POC\tests\logout_test.js" time="8.958" failures="0">
-    <testcase name="logout: Logout User" time="8.288" classname="Logout User">
+  <testsuite name="login" timestamp="2023-07-05T08:45:23" tests="1" file="C:\POC\tests\login_test.js" time="2.362" failures="0">
+    <testcase name="login: user login @smoke1" time="2.040" classname="user login @smoke1">
     </testcase>
   </testsuite>
-  <testsuite name="requestdemo" timestamp="2023-07-05T04:54:06" tests="1" file="C:\POC\tests\requestdemo_test.js" time="32.348" failures="0">
-    <testcase name="requestdemo: user login" time="31.513" classname="user login">
+  <testsuite name="logout" timestamp="2023-07-05T08:45:25" tests="1" file="C:\POC\tests\logout_test.js" time="8.462" failures="0">
+    <testcase name="logout: Logout User" time="8.086" classname="Logout User">
+    </testcase>
+  </testsuite>
+  <testsuite name="requestdemo" timestamp="2023-07-05T08:45:33" tests="1" file="C:\POC\tests\requestdemo_test.js" time="28.159" failures="0">
+    <testcase name="requestdemo: user login" time="27.761" classname="user login">
     </testcase>
   </testsuite>
 </testsuites>

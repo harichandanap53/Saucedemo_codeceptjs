@@ -37,6 +37,7 @@ exports.config = {
   plugins: {
     screenshotOnFail: {
       enabled: true,
+      screenshotsForAllureReport: true
     },
     retryFailedStep: {
       enabled: true,
@@ -47,6 +48,36 @@ exports.config = {
     },*/
     allure: {
       enabled: true,
+      // require: '@codeceptjs/allure-legacy',
+      
     },
   },
+  multiple: {
+    profile1: {
+      browsers: [
+        {
+          browser: "firefox",
+          desiredCapabilties: {
+            // override capabilties related to firefox
+          }
+        },
+        {
+          browser: "chromium",
+          desiredCapabilties: {
+            // override capabilties related to chrome
+          }
+        }
+      ]
+    }, 
+    profile2: {
+      browsers: [
+        {
+          browser: "webkit",
+          desiredCapabilties: {
+            // override capabilties related to safari
+          }
+        }
+      ]
+    }
+  }
 };
