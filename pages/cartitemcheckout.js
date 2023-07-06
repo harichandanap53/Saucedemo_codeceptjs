@@ -6,7 +6,7 @@ class cartitemcheckout extends additemtocart {
   //fields
 
   cartitemCheckout = "#checkout";
-  backtohome= "#back-to-products";
+  backtohome = "#back-to-products";
 
   //Checkout: Your Information
   FirstName = "#first-name";
@@ -28,7 +28,6 @@ class cartitemcheckout extends additemtocart {
     I.wait(2);
     I.click(this.finish);
     I.click(this.backtohome);
-
   }
 }
 

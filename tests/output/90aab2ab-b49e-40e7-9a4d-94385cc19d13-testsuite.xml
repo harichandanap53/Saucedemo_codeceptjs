@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1688631378664' stop='1688631384342'>
+    <name>logout:</name>
+    <title>logout:</title>
+    <test-cases>
+        <test-case start='1688631378666' status='passed' stop='1688631384295'>
+            <name>Logout User</name>
+            <title>Logout User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1688631379205' status='passed' stop='1688631381055'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688631381055' status='passed' stop='1688631381458'>
+                    <name>I fill field "#user-name", "standard_user"</name>
+                    <title>I fill field "#user-name", "standard_user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688631381458' status='passed' stop='1688631381768'>
+                    <name>I fill field "#password", "secret_sauce"</name>
+                    <title>I fill field "#password", "secret_sauce"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688631381768' status='passed' stop='1688631381987'>
+                    <name>I click "#login-button"</name>
+                    <title>I click "#login-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688631381987' status='passed' stop='1688631382145'>
+                    <name>I click "#react-burger-menu-btn"</name>
+                    <title>I click "#react-burger-menu-btn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688631382145' status='passed' stop='1688631384146'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688631384147' status='passed' stop='1688631384295'>
+                    <name>I click "#logout_sidebar_link"</name>
+                    <title>I click "#logout_sidebar_link"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

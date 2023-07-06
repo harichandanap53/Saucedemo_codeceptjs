@@ -10,8 +10,6 @@ let logot = new logout();
 
 Scenario("Logout User", ({ I }) => {
   I.amOnPage("/");
-
   logot.fillLoginFields(correctLoginUser);
-
   logot.logoutuser();
 });

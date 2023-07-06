@@ -16,24 +16,12 @@ Scenario("checkout item successfull", ({ I }) => {
   I.amOnPage("/");
 
   itemcheckout.fillLoginFields(correctLoginUser);
-  I.wait(2);
 
   itemcheckout.cartName();
 
-  I.wait(2);
-
   itemcheckout.cartlistcheckout();
 
-  I.wait(2);
-
   itemcheckout.checkoutYourInformation(cartcheckinfo);
-  I.dontSee('cancel');
-  I.wait(2);
-
+  I.dontSee("cancel");
   logot.logoutuser();
- 
-
-  I.wait(2);
 });
-
-
