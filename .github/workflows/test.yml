@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master
-      - codeceptjs
+      - codeceptjspoc
   pull_request:
     branches:
       - master
-      - codeceptjs
+      - codeceptjspoc
 
 env:
   CI: true
