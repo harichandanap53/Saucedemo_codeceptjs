@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689304261619' stop='1689304263399'>
+    <name>helper:</name>
+    <title>helper:</title>
+    <test-cases>
+        <test-case start='1689304262696' status='passed' stop='1689304263321'>
+            <name>Table check ALL</name>
+            <title>Table check ALL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

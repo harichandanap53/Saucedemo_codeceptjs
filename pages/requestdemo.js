@@ -1,6 +1,7 @@
 const { I } = inject();
 
 const login = require("../pages/login");
+const Factory = require("../tests/factories/Faker1");
 
 class requestdemo extends login {
   menubutton = "#react-burger-menu-btn";

@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1688706548433' stop='1688706555655'>
+    <name>user_added_test:</name>
+    <title>user_added_test:</title>
+    <test-cases>
+        <test-case start='1688706553453' status='failed' stop='1688706554515'>
+            <name>successful user added | {"username":"standard_user","password":"secret_sauce"}</name>
+            <title>successful user added | {"username":"standard_user","password":"secret_sauce"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='180e3b02-df51-41ad-8610-14cfb5738068-attachment.png' type='image/png' size='6897'/>
+            </attachments>
+            <failure>
+                <message>Object of type user_addedPage is not defined in container</message>
+                <stack-trace>Error: Object of type user_addedPage is not defined in container
+                    at getInjectedArguments (C:\POC\node_modules\codeceptjs\lib\scenario.js:213:13)
+                    at test.fn (C:\POC\node_modules\codeceptjs\lib\scenario.js:92:25)
+                    at callFnAsync (C:\POC\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\POC\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\POC\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\POC\node_modules\mocha\lib\runner.js:789:12
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:581:14)
+                    at C:\POC\node_modules\mocha\lib\runner.js:591:7
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:474:14)
+                    at cbHookRun (C:\POC\node_modules\mocha\lib\runner.js:539:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1688706554779' status='failed' stop='1688706555379'>
+            <name>successful user added | {"username":"locked_out_user","password":"secret_sauce"}</name>
+            <title>successful user added | {"username":"locked_out_user","password":"secret_sauce"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='5e45a797-4b06-46ef-aaab-fd9946cf4df4-attachment.png' type='image/png' size='6897'/>
+            </attachments>
+            <failure>
+                <message>Object of type user_addedPage is not defined in container</message>
+                <stack-trace>Error: Object of type user_addedPage is not defined in container
+                    at getInjectedArguments (C:\POC\node_modules\codeceptjs\lib\scenario.js:213:13)
+                    at test.fn (C:\POC\node_modules\codeceptjs\lib\scenario.js:92:25)
+                    at callFnAsync (C:\POC\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\POC\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\POC\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\POC\node_modules\mocha\lib\runner.js:789:12
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:581:14)
+                    at C:\POC\node_modules\mocha\lib\runner.js:591:7
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:474:14)
+                    at cbHookRun (C:\POC\node_modules\mocha\lib\runner.js:539:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

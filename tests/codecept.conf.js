@@ -16,7 +16,32 @@ exports.config = {
       show: true,
       browser: "chromium",
     },
+    REST: {
+      endpoint: "https://www.saucedemo.com",
+    },
+    /*MyHelper: {
+      require: "./myhelper_helper.js",
+      defaultHost: "http://mysite.com/api",
+    },*/
+    // },
+    //DATA FACTORY
+
+    ApiDataFactory: {
+      endpoint: "https://www.saucedemo.com",
+      cleanup: false,
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      factories: {
+        user: {
+          factory: "../tests/Faker1",
+          create: (data) => ({ method: "POST", url: "/api", data }),
+        },
+      },
+    },
   },
+
   include: {
     I: "./steps_file.js",
 
@@ -42,10 +67,10 @@ exports.config = {
     retryFailedStep: {
       enabled: true,
     },
-    /*stepByStepReport:{
+    stepByStepReport: {
       enabled: true,
-     // deleteSuccessful: false
-    },*/
+      // deleteSuccessful: false
+    },
     allure: {
       enabled: true,
       require: "@codeceptjs/allure-legacy",

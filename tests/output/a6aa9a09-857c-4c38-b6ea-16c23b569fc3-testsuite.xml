@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689339691152' stop='1689339695433'>
+    <name>requestdemo:</name>
+    <title>requestdemo:</title>
+    <test-cases>
+        <test-case start='1689339692010' status='failed' stop='1689339695039'>
+            <name>user login</name>
+            <title>user login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1689339692637' status='passed' stop='1689339693628'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689339693629' status='passed' stop='1689339694103'>
+                    <name>I fill field "#user-name", "standard_user"</name>
+                    <title>I fill field "#user-name", "standard_user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689339694103' status='passed' stop='1689339694566'>
+                    <name>I fill field "#password", "secret_sauce"</name>
+                    <title>I fill field "#password", "secret_sauce"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689339694566' status='passed' stop='1689339695034'>
+                    <name>I click "#login-button"</name>
+                    <title>I click "#login-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689339695034' status='failed' stop='1689339695036'>
+                    <name>I have "post"</name>
+                    <title>I have "post"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='7bb4d50a-41fc-45f5-8671-1deab90732b2-attachment.png' type='image/png' size='245449'/>
+            </attachments>
+            <failure>
+                <message>Factory post is not defined in config</message>
+                <stack-trace>Error: Factory post is not defined in config
+                    at ApiDataFactory._createItem (C:\POC\node_modules\codeceptjs\lib\helper\ApiDataFactory.js:303:13)
+                    at ApiDataFactory.have (C:\POC\node_modules\codeceptjs\lib\helper\ApiDataFactory.js:269:23)
+                    at Step.run (C:\POC\node_modules\codeceptjs\lib\step.js:122:47)
+                    at C:\POC\node_modules\codeceptjs\lib\actor.js:135:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

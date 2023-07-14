@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1688709406175' stop='1688709420569'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1688709406927' status='failed' stop='1688709414038'>
+            <name>user login | {"username":"standard_user","password":"secret_sauce"} @smoke1</name>
+            <title>user login | {"username":"standard_user","password":"secret_sauce"} @smoke1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@smoke1'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1688709407586' status='passed' stop='1688709409218'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688709409220' status='failed' stop='1688709414038'>
+                    <name>I fill field "#user-name", </name>
+                    <title>I fill field "#user-name", </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='49fea551-adb2-42e4-884b-46acd92b0f4f-attachment.png' type='image/png' size='30086'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'toString')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'toString')
+                    at Playwright.fillField (C:\POC\node_modules\codeceptjs\lib\helper\Playwright.js:1539:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1688709414266' status='failed' stop='1688709420385'>
+            <name>user login | {"username":"locked_out_user","password":"secret_sauce"} @smoke1</name>
+            <title>user login | {"username":"locked_out_user","password":"secret_sauce"} @smoke1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@smoke1'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1688709414803' status='passed' stop='1688709415585'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688709415586' status='failed' stop='1688709420385'>
+                    <name>I fill field "#user-name", </name>
+                    <title>I fill field "#user-name", </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='b62394df-7853-4ee9-aa51-41755aca6526-attachment.png' type='image/png' size='30086'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'toString')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'toString')
+                    at Playwright.fillField (C:\POC\node_modules\codeceptjs\lib\helper\Playwright.js:1539:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

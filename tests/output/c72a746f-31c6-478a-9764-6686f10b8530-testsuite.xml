@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1688706774360' stop='1688706779421'>
+    <name>user_added_test:</name>
+    <title>user_added_test:</title>
+    <test-cases>
+        <test-case start='1688706775489' status='failed' stop='1688706777182'>
+            <name>successful user added | {"username":"standard_user","password":"secret_sauce"}</name>
+            <title>successful user added | {"username":"standard_user","password":"secret_sauce"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1688706776310' status='passed' stop='1688706777180'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='a000699f-8851-40f5-827b-8f5971f2b114-attachment.png' type='image/png' size='30086'/>
+            </attachments>
+            <failure>
+                <message>current is not defined</message>
+                <stack-trace>ReferenceError: current is not defined
+                    at Test.&lt;anonymous> (C:\POC\tests\userdata_test.js:11:22)
+                    at test.fn (C:\POC\node_modules\codeceptjs\lib\scenario.js:92:14)
+                    at callFnAsync (C:\POC\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\POC\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\POC\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\POC\node_modules\mocha\lib\runner.js:789:12
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:581:14)
+                    at C:\POC\node_modules\mocha\lib\runner.js:591:7
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:474:14)
+                    at cbHookRun (C:\POC\node_modules\mocha\lib\runner.js:539:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1688706777493' status='failed' stop='1688706779117'>
+            <name>successful user added | {"username":"locked_out_user","password":"secret_sauce"}</name>
+            <title>successful user added | {"username":"locked_out_user","password":"secret_sauce"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1688706778211' status='passed' stop='1688706779116'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='eb84d021-c653-4e2f-9ee6-feaa4270aa6c-attachment.png' type='image/png' size='30086'/>
+            </attachments>
+            <failure>
+                <message>current is not defined</message>
+                <stack-trace>ReferenceError: current is not defined
+                    at Test.&lt;anonymous> (C:\POC\tests\userdata_test.js:11:22)
+                    at test.fn (C:\POC\node_modules\codeceptjs\lib\scenario.js:92:14)
+                    at callFnAsync (C:\POC\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\POC\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\POC\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\POC\node_modules\mocha\lib\runner.js:789:12
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:581:14)
+                    at C:\POC\node_modules\mocha\lib\runner.js:591:7
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:474:14)
+                    at cbHookRun (C:\POC\node_modules\mocha\lib\runner.js:539:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689165363294' stop='1689165447657'>
+    <name>CART CHECKOUT:</name>
+    <title>CART CHECKOUT:</title>
+    <test-cases>
+        <test-case start='1689165365640' status='passed' stop='1689165447618'>
+            <name>checkout item successfull</name>
+            <title>checkout item successfull</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1689165367862' status='passed' stop='1689165369397'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165369398' status='passed' stop='1689165372145'>
+                    <name>I fill field "#user-name", "standard_user"</name>
+                    <title>I fill field "#user-name", "standard_user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165372146' status='passed' stop='1689165374416'>
+                    <name>I fill field "#password", "secret_sauce"</name>
+                    <title>I fill field "#password", "secret_sauce"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165374417' status='passed' stop='1689165379896'>
+                    <name>I click "#login-button"</name>
+                    <title>I click "#login-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165379897' status='passed' stop='1689165386495'>
+                    <name>I click "#add-to-cart-sauce-labs-backpack"</name>
+                    <title>I click "#add-to-cart-sauce-labs-backpack"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165386496' status='passed' stop='1689165392843'>
+                    <name>I click "div[id='shopping_cart_container'] a span"</name>
+                    <title>I click "div[id='shopping_cart_container'] a span"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165392844' status='passed' stop='1689165399236'>
+                    <name>I click "#checkout"</name>
+                    <title>I click "#checkout"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165399236' status='passed' stop='1689165400625'>
+                    <name>I fill field "#first-name", "kiwi"</name>
+                    <title>I fill field "#first-name", "kiwi"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165400626' status='passed' stop='1689165401975'>
+                    <name>I fill field "#last-name", "qa"</name>
+                    <title>I fill field "#last-name", "qa"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165401975' status='passed' stop='1689165404228'>
+                    <name>I fill field "#postal-code", "500088"</name>
+                    <title>I fill field "#postal-code", "500088"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165404229' status='passed' stop='1689165409447'>
+                    <name>I click "#continue"</name>
+                    <title>I click "#continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165409447' status='passed' stop='1689165416460'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165416461' status='passed' stop='1689165421835'>
+                    <name>I click "#finish"</name>
+                    <title>I click "#finish"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165421836' status='passed' stop='1689165428217'>
+                    <name>I click "#back-to-products"</name>
+                    <title>I click "#back-to-products"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165428218' status='passed' stop='1689165433250'>
+                    <name>I dont see "cancel"</name>
+                    <title>I dont see "cancel"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165433250' status='passed' stop='1689165434173'>
+                    <name>I click "#react-burger-menu-btn"</name>
+                    <title>I click "#react-burger-menu-btn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165434173' status='passed' stop='1689165441194'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165441194' status='passed' stop='1689165447596'>
+                    <name>I click "#logout_sidebar_link"</name>
+                    <title>I click "#logout_sidebar_link"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

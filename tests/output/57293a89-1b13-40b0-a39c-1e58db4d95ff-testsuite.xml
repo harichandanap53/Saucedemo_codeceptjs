@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689305339586' stop='1689305341662'>
+    <name>helper:</name>
+    <title>helper:</title>
+    <test-cases>
+        <test-case start='1689305340652' status='failed' stop='1689305341215'>
+            <name>Table check ALL</name>
+            <title>Table check ALL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='06edfd34-a79c-46a4-aab5-876b5c2d63a5-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message>login.loginViApi is not a function</message>
+                <stack-trace>TypeError: login.loginViApi is not a function
+                    at Test.&lt;anonymous> (C:\POC\tests\helper_helper.js:32:9)
+                    at test.fn (C:\POC\node_modules\codeceptjs\lib\scenario.js:92:14)
+                    at callFnAsync (C:\POC\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\POC\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\POC\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\POC\node_modules\mocha\lib\runner.js:789:12
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:581:14)
+                    at C:\POC\node_modules\mocha\lib\runner.js:591:7
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:474:14)
+                    at cbHookRun (C:\POC\node_modules\mocha\lib\runner.js:539:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
