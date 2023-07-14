@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689306474912' stop='1689306480378'>
+    <name>helper:</name>
+    <title>helper:</title>
+    <test-cases>
+        <test-case start='1689306476067' status='passed' stop='1689306480216'>
+            <name>Table check ALL</name>
+            <title>Table check ALL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1689306476700' status='passed' stop='1689306478206'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689306478208' status='passed' stop='1689306480214'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

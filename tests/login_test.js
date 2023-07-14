@@ -1,8 +1,7 @@
 Feature("login");
 
-const login = require("../pages/login");
-
 const { correctLoginUser } = require("../Data/login_Data");
+const login = require("../pages/login");
 
 let login1 = new login();
 

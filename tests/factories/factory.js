@@ -1,0 +1,1 @@
+const EmployeeFactory = require('./tests/factories/Faker1')

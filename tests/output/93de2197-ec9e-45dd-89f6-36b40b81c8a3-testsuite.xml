@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689080388812' stop='1689080391178'>
+    <name>Faker:</name>
+    <title>Faker:</title>
+    <test-cases>
+        <test-case start='1689080390097' status='failed' stop='1689080390881'>
+            <name>FakerDemo</name>
+            <title>FakerDemo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='70825eca-d051-483f-8129-c890269be442-attachment.png' type='image/png' size='6897'/>
+            </attachments>
+            <failure>
+                <message>The locale data for 'hacker.noun' are missing in this locale.
+                  Please contribute the missing data to the project or use a locale/Faker instance that has these data.
+                  For more information see https://fakerjs.dev/guide/localization.html</message>
+                <stack-trace>Error: The locale data for 'hacker.noun' are missing in this locale.
+                  Please contribute the missing data to the project or use a locale/Faker instance that has these data.
+                  For more information see https://fakerjs.dev/guide/localization.html
+                    at Object.get (C:\POC\node_modules\@faker-js\faker\dist\cjs\locale-proxy.js:2:108)
+                    at n.noun (C:\POC\node_modules\@faker-js\faker\dist\cjs\modules\hacker\index.js:1:914)
+                    at c.branch (C:\POC\node_modules\@faker-js\faker\dist\cjs\modules\git\index.js:1:1127)
+                    at Test.&lt;anonymous> (C:\POC\tests\faker.js:11:24)
+                    at test.fn (C:\POC\node_modules\codeceptjs\lib\scenario.js:92:14)
+                    at callFnAsync (C:\POC\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\POC\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\POC\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\POC\node_modules\mocha\lib\runner.js:789:12
+                    at next (C:\POC\node_modules\mocha\lib\runner.js:581:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

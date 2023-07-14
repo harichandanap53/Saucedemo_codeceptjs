@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689228229540' stop='1689228241257'>
+    <name>Faker:</name>
+    <title>Faker:</title>
+    <test-cases>
+        <test-case start='1689228235623' status='passed' stop='1689228241173'>
+            <name>FakerDemo</name>
+            <title>FakerDemo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1689228236994' status='passed' stop='1689228241171'>
+                    <name>I wait 4</name>
+                    <title>I wait 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689315092022' stop='1689315096882'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1689315094143' status='passed' stop='1689315096817'>
+            <name>user login @smoke1</name>
+            <title>user login @smoke1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@smoke1'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1689315094894' status='passed' stop='1689315095839'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689315095839' status='passed' stop='1689315096224'>
+                    <name>I fill field "#user-name", "standard_user"</name>
+                    <title>I fill field "#user-name", "standard_user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689315096224' status='passed' stop='1689315096555'>
+                    <name>I fill field "#password", "secret_sauce"</name>
+                    <title>I fill field "#password", "secret_sauce"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689315096555' status='passed' stop='1689315096805'>
+                    <name>I click "#login-button"</name>
+                    <title>I click "#login-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689315096805' status='passed' stop='1689315096817'>
+                    <name>I see "Swag Labs"</name>
+                    <title>I see "Swag Labs"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

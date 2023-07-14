@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1688706839368' stop='1688706859863'>
+    <name>user_added_test:</name>
+    <title>user_added_test:</title>
+    <test-cases>
+        <test-case start='1688706840422' status='failed' stop='1688706848478'>
+            <name>successful user added | {"username":"standard_user","password":"secret_sauce"}</name>
+            <title>successful user added | {"username":"standard_user","password":"secret_sauce"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1688706841254' status='passed' stop='1688706842244'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688706842245' status='passed' stop='1688706842800'>
+                    <name>I fill field "#user-name", "standard_user"</name>
+                    <title>I fill field "#user-name", "standard_user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688706842802' status='passed' stop='1688706843319'>
+                    <name>I fill field "#password", "secret_sauce"</name>
+                    <title>I fill field "#password", "secret_sauce"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688706843321' status='passed' stop='1688706843671'>
+                    <name>I click {"css":"#login-button"}</name>
+                    <title>I click {"css":"#login-button"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688706843671' status='failed' stop='1688706848477'>
+                    <name>I see "SwagLabs"</name>
+                    <title>I see "SwagLabs"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='6edf8a68-f640-486f-a92b-2904fe86c071-attachment.png' type='image/png' size='280570'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1688706848836' status='failed' stop='1688706859601'>
+            <name>successful user added | {"username":"locked_out_user","password":"secret_sauce"}</name>
+            <title>successful user added | {"username":"locked_out_user","password":"secret_sauce"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1688706849436' status='passed' stop='1688706853732'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688706853732' status='passed' stop='1688706854289'>
+                    <name>I fill field "#user-name", "locked_out_user"</name>
+                    <title>I fill field "#user-name", "locked_out_user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688706854289' status='passed' stop='1688706854628'>
+                    <name>I fill field "#password", "secret_sauce"</name>
+                    <title>I fill field "#password", "secret_sauce"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688706854628' status='passed' stop='1688706854829'>
+                    <name>I click {"css":"#login-button"}</name>
+                    <title>I click {"css":"#login-button"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1688706854829' status='failed' stop='1688706859601'>
+                    <name>I see "SwagLabs"</name>
+                    <title>I see "SwagLabs"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='ea876e95-0ce5-42de-81da-37da332e2f23-attachment.png' type='image/png' size='35056'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

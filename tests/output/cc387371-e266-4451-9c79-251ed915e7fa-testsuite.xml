@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689165075660' stop='1689165114637'>
+    <name>ADD Item To Cart:</name>
+    <title>ADD Item To Cart:</title>
+    <test-cases>
+        <test-case start='1689165076789' status='passed' stop='1689165114588'>
+            <name>ADD Item To Cart @smoke2</name>
+            <title>ADD Item To Cart @smoke2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@smoke2'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1689165078921' status='passed' stop='1689165085302'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165085305' status='passed' stop='1689165087771'>
+                    <name>I fill field "#user-name", "standard_user"</name>
+                    <title>I fill field "#user-name", "standard_user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165087772' status='passed' stop='1689165090114'>
+                    <name>I fill field "#password", "secret_sauce"</name>
+                    <title>I fill field "#password", "secret_sauce"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165090114' status='passed' stop='1689165096586'>
+                    <name>I click "#login-button"</name>
+                    <title>I click "#login-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165096588' status='passed' stop='1689165103061'>
+                    <name>I click "#add-to-cart-sauce-labs-backpack"</name>
+                    <title>I click "#add-to-cart-sauce-labs-backpack"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165103062' status='passed' stop='1689165109501'>
+                    <name>I click "div[id='shopping_cart_container'] a span"</name>
+                    <title>I click "div[id='shopping_cart_container'] a span"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1689165109502' status='passed' stop='1689165114582'>
+                    <name>I see "$29.99"</name>
+                    <title>I see "$29.99"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
