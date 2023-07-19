@@ -17,31 +17,10 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [18.x]
         
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-      - name: Install dependencies
-        run: npm ci
-      - name: Install codeceptjs browsers
-        run: npx codeceptjs install --with-deps
-      - name: Run tests
-        run: npx codeceptjs test
-      - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-      - uses: microsoft/playwright-github-action@v1
-      - name: install required packages
-        run: sudo apt-get install php
-      - name: npm install
-        run:  npm install
-      - name: start a server
-        run: "php -S 127.0.0.1:8000 -t test/data/app &"
-      - name: run chromium tests
-        run: "BROWSER=chromium node ./POC/tests --debug"
-      - name: run firefox tests
-        run: "BROWSER=firefox node ./POC/tests --debug"
-      - name: run webkit tests
-        run: "BROWSER=webkit node ./POC/tests --debug"
-   
+    - uses: microsoft/playwright-github-action@v1
+    - name: run CodeceptJS tests
+      run: npx codeceptjs run
+      
